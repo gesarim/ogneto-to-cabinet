@@ -1,2 +1,2 @@
 'use client';
-export default function PrintButton(){return <button className="shareprint" onClick={()=>window.print()}>Скачать PDF</button>}
+export default function PrintButton({id}:{id:string}){return <a className="shareprint" href={`/api/proposals/${id}/pdf`} download>Скачать PDF</a>}

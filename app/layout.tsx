@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   title: "Огнето — кабинет КП",
   description: "Расчёт ТО огнетушителей и управление коммерческими предложениями",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
   },
 };
 
